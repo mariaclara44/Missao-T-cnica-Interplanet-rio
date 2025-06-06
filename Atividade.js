@@ -80,3 +80,12 @@ inventarioBeta.push(["Telescópio", "kepler", 1200],
     ["Cristal Vermelho", "Kepler", "4900"])
   
     console.log(`Depois do push: ${inventarioBeta}`);
+
+
+// 5. Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+
+let itemEmDestaque = inventarioAlpha [9];
+inventarioAlpha.unshift(itemEmDestaque);
+inventarioAlpha.splice (10, 1);
+console.log("O elemento em destaque do Inventário foi:" , inventarioAlpha);
+
