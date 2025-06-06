@@ -133,3 +133,8 @@ console.log(`Elemento alterado: ${elementoAlterado}`);
 // 16. Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
 inventarioBeta.splice(8, 2);
 console.log("Novo inventário:", inventarioBeta);
+
+// 17. Unifique os inventários Alpha e Beta em uma única estrutura
+
+console.log(`Inventário combinada: ${inventarioAlpha.concat(inventarioBeta)}`);
+console.log(`Inventário combinada: ${inventarioAlpha.concat(inventarioBeta).join(', ')}`);
