@@ -89,3 +89,9 @@ inventarioAlpha.unshift(itemEmDestaque);
 inventarioAlpha.splice (10, 1);
 console.log("O elemento em destaque do Inventário foi:" , inventarioAlpha);
 
+// 6. Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+
+let itemEmDestaque1 = inventarioBeta [11];
+inventarioBeta.unshift(itemEmDestaque1);
+inventarioBeta.splice (12, 1);
+console.log("O elemento em destaque do Inventário foi:" , inventarioBeta);
