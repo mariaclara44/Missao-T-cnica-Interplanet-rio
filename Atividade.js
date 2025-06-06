@@ -107,3 +107,9 @@ console.log("O elemento removido no ínicio do array foi: ", primeiroElementoDoA
 let primeiroElementoDoArrayRemovido1 = inventarioBeta.shift();
 console.log("Depois do shift:" , inventarioBeta);
 console.log("O elemento removido no ínicio do array foi: ", primeiroElementoDoArrayRemovido1);
+
+
+// 12. Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
+
+console.log(`Parte da Inventário Beta (índices 0 a 11): ${inventarioBeta.slice(0, 11)}`);
+
