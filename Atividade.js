@@ -122,3 +122,11 @@ console.log("A nova lista com os 5 elementos do Array do Inventário Beta: ", no
 console.log("Os últimos itens do inventário Alpha para estudo: ", inventarioAlpha.slice(15, 25));
 
 
+// 15. O quinto item da Alpha foi substituído por uma versão mais moderna. Atualize.
+
+let elementoAlterado = inventarioAlpha.splice(5, 1,  "Ampunlheta Galáctica 2.0");
+console.log(`Depois do splice: ${inventarioAlpha.join(', ')}`);
+
+console.log(`Elemento alterado: ${elementoAlterado}`);
+
+
