@@ -138,3 +138,10 @@ console.log("Novo inventário:", inventarioBeta);
 
 console.log(`Inventário combinada: ${inventarioAlpha.concat(inventarioBeta)}`);
 console.log(`Inventário combinada: ${inventarioAlpha.concat(inventarioBeta).join(', ')}`);
+
+// 18. Junte os cinco primeiros itens de cada nave em uma nova vitrine de destaques.
+
+let novoInventarioBeta = inventarioBeta.splice(0, 5)
+let novoInventarioAlpha = inventarioAlpha.splice(0, 5)
+
+console.log(`inventário combinado: ${novoInventarioAlpha.concat(novoInventarioBeta)}`);
