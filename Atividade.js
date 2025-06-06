@@ -130,3 +130,6 @@ console.log(`Depois do splice: ${inventarioAlpha.join(', ')}`);
 console.log(`Elemento alterado: ${elementoAlterado}`);
 
 
+// 16. Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
+inventarioBeta.splice(8, 2);
+console.log("Novo inventário:", inventarioBeta);
