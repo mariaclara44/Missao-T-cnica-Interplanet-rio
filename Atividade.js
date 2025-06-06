@@ -124,7 +124,7 @@ console.log("Os últimos itens do inventário Alpha para estudo: ", inventarioAl
 
 // 15. O quinto item da Alpha foi substituído por uma versão mais moderna. Atualize.
 
-let elementoAlterado = inventarioAlpha.splice(5, 1,  "Ampunlheta Galáctica 2.0");
+let elementoAlterado = inventarioAlpha.splice(5, 1, ["Ampunlheta Galáctica 2.0", "Vênus", " 2200"]);
 console.log(`Depois do splice: ${inventarioAlpha.join(', ')}`);
 
 console.log(`Elemento alterado: ${elementoAlterado}`);
@@ -145,3 +145,10 @@ let novoInventarioBeta = inventarioBeta.splice(0, 5)
 let novoInventarioAlpha = inventarioAlpha.splice(0, 5)
 
 console.log(`inventário combinado: ${novoInventarioAlpha.concat(novoInventarioBeta)}`);
+
+
+// 26. Inverta a ordem dos 15 primeiros itens da Alpha como simulação de viagem no tempo.
+
+let inventarioAlphaInvertido = inventarioAlpha.reverse();
+
+console.log("Inventário alpha invertido:", inventarioAlphaInvertido);
