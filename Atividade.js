@@ -95,3 +95,9 @@ let itemEmDestaque1 = inventarioBeta [11];
 inventarioBeta.unshift(itemEmDestaque1);
 inventarioBeta.splice (12, 1);
 console.log("O elemento em destaque do Inventário foi:" , inventarioBeta);
+
+//7. Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído.
+
+let primeiroElementoDoArrayRemovido = inventarioAlpha.shift();
+console.log("Depois do shift:" , inventarioAlpha);
+console.log("O elemento removido no ínicio do array foi: ", primeiroElementoDoArrayRemovido);
