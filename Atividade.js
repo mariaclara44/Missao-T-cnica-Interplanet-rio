@@ -113,3 +113,8 @@ console.log("O elemento removido no ínicio do array foi: ", primeiroElementoDoA
 
 console.log(`Parte da Inventário Beta (índices 0 a 11): ${inventarioBeta.slice(0, 11)}`);
 
+// 13. Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
+
+let novaLista = inventarioBeta.splice(0, 5);
+console.log("A nova lista com os 5 elementos do Array do Inventário Beto: ", novaLista);
+
