@@ -101,3 +101,9 @@ console.log("O elemento em destaque do Inventário foi:" , inventarioBeta);
 let primeiroElementoDoArrayRemovido = inventarioAlpha.shift();
 console.log("Depois do shift:" , inventarioAlpha);
 console.log("O elemento removido no ínicio do array foi: ", primeiroElementoDoArrayRemovido);
+
+// 8. O primeiro item da Beta pertence a um museu e deve ser removido.
+
+let primeiroElementoDoArrayRemovido1 = inventarioBeta.shift();
+console.log("Depois do shift:" , inventarioBeta);
+console.log("O elemento removido no ínicio do array foi: ", primeiroElementoDoArrayRemovido1);
